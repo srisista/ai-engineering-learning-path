@@ -1,0 +1,6 @@
+Explain the difference between supervised and unsupervised learning in simple terms.
+
+Act as a senior Python engineer and review this function for readability.
+
+Summarize the benefits of using large language models in enterprise applications.
+

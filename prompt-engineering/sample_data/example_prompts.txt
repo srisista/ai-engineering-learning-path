@@ -1,0 +1,8 @@
+Explain retrieval augmented generation to a junior engineer.
+
+Given this text, extract the key risks and assumptions.
+
+Classify the sentiment of this customer review.
+
+Rewrite this paragraph in a more concise, executive tone.
+
