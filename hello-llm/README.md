@@ -146,6 +146,7 @@ Use these as small, focused exercises to deepen your skills:
    - Send the full conversation to the model each time.
 
 4. **Model Swap Challenge**  
+   - Run `python compare_models.py "Your question here"` (or use `--models model-a,model-b`).  
    - Try at least two different models on OpenRouter.  
    - Record qualitative differences in latency and answer quality.
 
