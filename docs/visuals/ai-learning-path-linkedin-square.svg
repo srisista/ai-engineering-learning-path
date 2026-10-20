@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#040a14"/>
+      <stop offset="55%" stop-color="#071322"/>
+      <stop offset="100%" stop-color="#0a1a33"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#60a5fa"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="78%" cy="22%" r="45%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#040a14" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="1200" fill="url(#bg)"/>
+  <rect width="1200" height="1200" fill="url(#glow)"/>
+  <rect x="0" y="0" width="1200" height="5" fill="#38bdf8"/>
+
+  <rect x="64" y="64" width="4" height="200" fill="#d4af37"/>
+
+  <text x="88" y="118" fill="#94a3b8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="600" letter-spacing="4">HANDS-ON LEARNING PATH</text>
+  <text x="88" y="188" fill="#f8fafc" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="52" font-weight="800">AI Engineering</text>
+  <text x="88" y="252" fill="#93c5fd" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="44" font-weight="700">15 Minutes a Day</text>
+
+  <text x="88" y="318" fill="#cbd5e1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="26">
+    Run small Python labs. See the result. Ask why.
+  </text>
+
+  <line x1="88" y1="352" x2="1112" y2="352" stroke="#1e3a5f" stroke-width="1"/>
+
+  <text x="88" y="410" fill="#67e8f9" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="2">STARTER LABS</text>
+
+  <g font-family="Inter, Segoe UI, Arial, sans-serif">
+    <rect x="88" y="438" width="1024" height="72" rx="10" fill="#0f172a" stroke="#1e3a5f" stroke-width="1"/>
+    <text x="118" y="484" fill="#d4af37" font-size="22" font-weight="800">01</text>
+    <text x="168" y="484" fill="#f1f5f9" font-size="24" font-weight="600">hello-llm  Meet your first LLM</text>
+
+    <rect x="88" y="524" width="1024" height="72" rx="10" fill="#0f172a" stroke="#1e3a5f" stroke-width="1"/>
+    <text x="118" y="570" fill="#d4af37" font-size="22" font-weight="800">02</text>
+    <text x="168" y="570" fill="#f1f5f9" font-size="24" font-weight="600">prompt-engineering  Craft better answers</text>
+
+    <rect x="88" y="610" width="1024" height="72" rx="10" fill="#0f172a" stroke="#1e3a5f" stroke-width="1"/>
+    <text x="118" y="656" fill="#d4af37" font-size="22" font-weight="800">03</text>
+    <text x="168" y="656" fill="#f1f5f9" font-size="24" font-weight="600">sentiment-analysis-llm  Emotion in text</text>
+
+    <rect x="88" y="696" width="1024" height="72" rx="10" fill="#0f172a" stroke="#1e3a5f" stroke-width="1"/>
+    <text x="118" y="742" fill="#d4af37" font-size="22" font-weight="800">04</text>
+    <text x="168" y="742" fill="#f1f5f9" font-size="24" font-weight="600">ollama-docker  Open models, locally</text>
+
+    <rect x="88" y="782" width="1024" height="72" rx="10" fill="#0f172a" stroke="#1e3a5f" stroke-width="1"/>
+    <text x="118" y="828" fill="#d4af37" font-size="22" font-weight="800">05</text>
+    <text x="168" y="828" fill="#f1f5f9" font-size="24" font-weight="600">Model swap lab  Compare models side by side</text>
+  </g>
+
+  <path d="M88 920 C320 880, 520 880, 600 920 C680 960, 880 960, 1112 920" fill="none" stroke="url(#accent)" stroke-width="7"/>
+  <circle cx="600" cy="920" r="14" fill="#0ea5e9"/>
+
+  <rect x="88" y="980" width="1024" height="128" rx="12" fill="#0b1220" stroke="#2563eb" stroke-width="1.5"/>
+  <text x="600" y="1048" text-anchor="middle" fill="#e2e8f0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="30" font-weight="700">
+    No prior expertise required.
+  </text>
+  <text x="600" y="1090" text-anchor="middle" fill="#93c5fd" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="26" font-weight="600">
+    github.com/srisista/ai-engineering-learning-path
+  </text>
+</svg>

@@ -1,7 +1,7 @@
 awesome-ai-15-minute
 =====================
 
-**100 AI Projects in 15 Minutes** — a curated ecosystem of small, production-minded AI labs you can build in under 15 minutes each.
+**AI labs in 15 minutes** — a growing collection of small, production-minded Python labs you can build in under 15 minutes each.
 
 Each project:
 - focuses on **one real-world AI concept**
@@ -13,13 +13,15 @@ This repository is the **main hub** that links to all individual 15-minute labs.
 
 ## Repository Categories
 
-- **LLM Projects**
+- **LLM Projects** (see [MODULE-CODE-COMPARISON.md](../docs/MODULE-CODE-COMPARISON.md) for what changes between labs)
   - `hello-llm` — first-token “hello world” for large language models
   - `prompt-engineering`
   - `ai-text-summarizer`
-  - `ai-translator`
-  - `sentiment-analysis`
+  - `ai-language-translator`
+  - `sentiment-analysis-llm`
   - `ai-email-writer`
+  - `ollama-docker` — local models with Ollama
+  - `hello-llm/compare_models.py` — compare two models on one prompt
 
 - **AI Agents**
   - `research-agent`
